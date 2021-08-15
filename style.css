@@ -1,0 +1,143 @@
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    --sombra: rgba(214, 194, 83, 0.08);
+}
+
+body{
+   background-color: rgb(27, 26, 26);
+}
+
+.logo-img{
+    max-width: 100%;
+}
+
+.log-in{
+    background-color: brown;
+    font-size: 18px;
+    border-style: double;
+    text-align: right;
+    border-color: darkgoldenrod;
+    color: white;
+}
+.log-in p{
+    margin: 0 auto;
+    max-width: 110rem;
+    width: 100%;
+}
+
+.log-in a, .order-here{
+    text-decoration:none;
+    padding-right: 3px;
+    color:white;
+}
+
+.menu{
+    display: grid;
+    padding: 2em;
+    gap: 1em;
+    text-shadow: rgb(209, 203, 203) 2px 2px 2px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.menu .nav-menu{
+    grid-column-start: 2;
+    grid-column-end: span 8;
+}
+.logo-img{
+    grid-column-end: span 2;
+    border-radius: 50%;
+}
+
+
+  a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 18px;
+    } 
+
+    .nav-menu li{
+    display:inline-block;
+    width:10%;
+    padding:5px 5px;
+    text-align:center;
+    color:white;
+    }
+    
+    .nav-menu li:hover{
+    background-color: whitesmoke;
+    color: white;
+    }
+
+    .intro, .galery{
+        display: grid;
+        padding: 1em;
+        gap: 1em;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .titulo{
+        box-shadow: var(--sombra) 0 0 2em;
+        background-image: url(img/4685405.jpg);
+        border-radius: 2em;
+        padding: 1em;
+        text-align: center;
+        grid-column-end: span 6;
+    }
+   .grapes{
+        box-shadow: var(--sombra) 0 0 2em;
+        grid-column-end: span 6;
+        width: 100%;
+    }  
+
+    .titulo h4{
+        margin: 0 auto;
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+        text-shadow: rgb(209, 203, 203) 2px 2px 2px;
+    }
+
+    .titulo p{
+        font-size: 1rem;
+        text-align: center;
+        text-shadow: rgb(0,0,0) 2px 2px 2px;
+        color: white;
+    }
+
+
+    .tarjeta{
+        box-shadow: var(--sombra) 0 0 2em;
+        grid-column-end: span 4;
+        padding: 2em;
+        text-align: center;
+        color: honeydew;
+    }
+    
+    .tarjeta img{
+        border-radius: 20%;
+        max-width: 15rem;
+    }
+
+   .adicionales{
+    display: grid;
+    padding: 1em;
+    background-image: url(img/background.jpg);
+    gap: 1em;
+    grid-template-columns: repeat(12, 1fr);
+    border-style: double;
+    border-color: darkgoldenrod;
+   }
+
+   .Pages-adds, .Address, .Hours, .media{
+    grid-column-end: span 3;
+    padding: 1em;
+    text-align: left;
+    color: rgb(26, 24, 19);
+   }
+
+   .Pages-adds,.Address h2, .Hours h2, .media h2{
+    color: rgb(133, 97, 8);
+   }
+
+    
